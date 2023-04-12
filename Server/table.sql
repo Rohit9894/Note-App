@@ -1,0 +1,6 @@
+CREATE TABLE message (
+    id int NOT NULL AUTO_INCREMENT,
+    description TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY(id)
+);

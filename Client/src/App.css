@@ -1,0 +1,51 @@
+.App {
+  min-height: 100vh;
+  background-color: #779492;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  padding-inline: 10px;
+  color: white;
+  background-color: #1f2227;
+}
+.card-div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  padding-inline: 20px;
+}
+.card {
+  background-color: #e3ddcd;
+  height: max-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+.div-input {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.div-input > input {
+  height: 40px;
+  width: 400px;
+  font-size: 16px;
+}
+p:first-child:first-line {
+  font-weight: bold;
+}
+p {
+  font-weight: 500;
+}
+.msg-date {
+  font-size: 12px;
+  color: teal;
+}
+.delete-button {
+  float: right;
+  cursor: pointer;
+}
